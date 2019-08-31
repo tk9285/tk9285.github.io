@@ -1,0 +1,128 @@
+body, html {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header {
+    background: black;
+    color: white;
+    border-bottom: 2px solid blue;
+    margin-bottom: 2%;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .main-heading {
+    color: yellow;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+
+  .cart-button {
+    height: 5em;
+    width: 10em;
+    margin-top: 1em;
+    margin-right: 4em;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+  }
+  
+  .link {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .checkout {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+  .container3 h1 {
+    border: 1px solid black;
+    width: 33%;
+    text-align: center;
+  }
+
+  .container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+  }
+
+  .sub-container1 {
+      width: 33%;
+      border: 1px solid black;
+
+  }
+
+  .sub-container2 {
+      width: 33%;
+      border: 1px solid black;
+
+  }
+
+  .container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+  }
+
+  .sub-container3 {
+    width: 33%;
+    border: 1px solid black;
+
+}
+
+.sub-container4 {
+    width: 33%;
+    border: 1px solid black;
+
+}
+
+  .container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+  }
+
+  .sub-container5 {
+    width: 33%;
+    border: 1px solid black;
+
+}
+
+.sub-container6 {
+    width: 33%;
+    border: 1px solid black;
+
+}
+
+.footer {
+    border-top: 8px solid blue;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
